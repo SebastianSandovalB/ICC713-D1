@@ -4,25 +4,72 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Desafío 1</title>
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="main.css">
-        <link rel="stylesheet" href="02-table.css">
+        <link rel="stylesheet" href="./css/main.css">
+        <link rel="stylesheet" href="./css/02-table.css">
+        <link rel="stylesheet" href="./css/01-form.css">
     </head>
     <body>
         <div id="header">
-            <ul class="navbar">
-                <li class="navbar-item">
-                    <a href="01-form.html">Formulario</a>
+            <ul class="navbarx">
+                <li >
+                    <a href="01-form.html" class="text2">Formulario</a>
                 </li>
-                <li class="navbar-item active">
-                    <a href="02-table.html">Tabla</a>
+                <li >
+                    <a href="02-table.html" class="text">Tabla</a>
                 </li>
             </ul>
         </div>
         <div class="container">
-            Aquí debe ir la tabla
+            <h1>Datos Registrados</h1>
+            <table class="table">
+                <thead class="titulos">
+                <tr>
+                    <th>Nombre</th>
+                    <th>Email</th>
+                    <th>Telefono</th>
+                    <th>Fecha Nacimiento</th>
+                    <th>Carrera</th>
+                    <th>Año Ingreso</th>
+                </tr>
+                </thead>
+                <tbody class="contenido">
+                    <tr>
+                        <td class="padding">Juan Perez</td>
+                        <td class="padding">j.perez01@ufromail.cl</td>
+                        <td class="padding">9151023567</td>
+                        <td class="padding">17-08-1995</td>
+                        <td class="padding">Ingenieria Informatica</td>
+                        <td class="padding">2013</td>
+                    </tr>
+                    <tr>
+                        <td>Felipe Sanchez</td>
+                        <td>f.sanchez02@ufromail.cl</td>
+                        <td>9151023567</td>
+                        <td>11-04-1998</td>
+                        <td>Ingenieria Civil Informatica</td>
+                        <td>2016</td>
+                    </tr>
+                    <tr>
+                        <td>Sergio Figueroa</td>
+                        <td>s.figueroa03@ufromail.cl</td>
+                        <td>9151023567</td>
+                        <td>04-03-1995</td>
+                        <td>Ingenieria Civil Informatica</td>
+                        <td>2014</td>
+                    </tr>
+                    <tr>
+                        <td>Alejandro Perez</td>
+                        <td>a.perez01@ufromail.cl</td>
+                        <td>9151023567</td>
+                        <td>20-11-1999</td>
+                        <td class="paddingCarrera">Ingenieria Civil Industrial Mencion Informatica</td>
+                        <td>2019</td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
         <div id="footer">
-            <small>Noviembre - 2020</small>
+            <small class="small">Noviembre - 2020</small>
         </div>
     </body>
 </html>

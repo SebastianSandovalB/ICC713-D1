@@ -1,0 +1,28 @@
+.input{
+    display: block;
+    height: 50px;
+    width: 400px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    height: 50px;
+    width: 400px;
+    background-color: #003a6c;
+    color: white;
+}
+
+.small{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 250px;
+}

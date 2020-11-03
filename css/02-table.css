@@ -1,0 +1,31 @@
+.titulos{
+    text-align: center;
+    margin-left: 50px;
+    background-color: #3BBB73;
+}
+.contenido{
+    text-align: center;
+    background-color: c9fdd7;
+
+}
+.table{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.small{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 250px;
+}
+
+.padding{
+    padding-right: 40px;
+    padding-left: 40px;
+}
+.paddingCarrera{
+    padding-right: 60px;
+    padding-left: 60px;
+}
